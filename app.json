@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Mycalculatorapp",
+    "slug": "hecsi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {},
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hasnatbrandjaws.hecsi"
+    },
+    "web": {
+      "favicon": "./assets/leo-logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "43ea73e8-2078-442d-9ddb-2a6521e76a30"
+      }
+    },
+    "owner": "hasnatbrandjaws",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/43ea73e8-2078-442d-9ddb-2a6521e76a30"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
