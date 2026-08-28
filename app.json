@@ -1,42 +1,36 @@
 {
   "expo": {
-    "name": "Mycalculatorapp",
-    "slug": "hecsi",
+    "name": "Shopify Native App",
+    "slug": "shopify-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "assetBundlePatterns": [
       "**/*"
     ],
-    "splash": {},
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.shopifynativeapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.hasnatbrandjaws.hecsi"
+      "package": "com.example.shopifynativeapp"
     },
     "web": {
-      "favicon": "./assets/leo-logo.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "43ea73e8-2078-442d-9ddb-2a6521e76a30"
-      }
-    },
-    "owner": "hasnatbrandjaws",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/43ea73e8-2078-442d-9ddb-2a6521e76a30"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      "expo-asset",
       "expo-font"
     ]
   }
